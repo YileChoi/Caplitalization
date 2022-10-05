@@ -15,8 +15,6 @@ for i in range(0, number_of_space + 1):
   capital = capital.replace(" ", "", 1)
   previous_space = space
 
-print(capital_list)
-
 for i in range(0, len(capital_list)):
   if i != 0:
     ignore_test = False
@@ -31,4 +29,3 @@ for i in range(0, len(capital_list)):
       pass
   else:
     new_capital += capital_list[i].capitalize()
-print(new_capital)
